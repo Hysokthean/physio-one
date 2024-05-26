@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Physio One</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8552095a9.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo physio.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="price.html">PRICE</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="about-col">
+                <h1>Price and Comment here</h1>
+             </div>
+        </section>
+        <!---------------blog page content--------->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/t.jpg">
+                    <h2>Some feedback form client</h2>
+                    <p>"I recently had the pleasure of receiving physiotherapy services at Physio One. I cannot express enough how satisfied I am with the care and attention I received from the entire team.
+
+                        From the moment I walked through the doors, I was greeted by friendly and knowledgeable staff who made me feel comfortable and at ease. The initial assessment by my physiotherapist was thorough and professional. They took the time to listen to my concerns, understand my medical history, and evaluate my condition to create a tailored treatment plan.
+                        
+                        Throughout my sessions, the physiotherapist demonstrated expertise and skill in conducting various treatment techniques. Not only did they explain each exercise or technique in an easily understandable way, but they also ensured I felt comfortable and safe throughout the session.
+                        
+                        The communication and empathy shown by the physiotherapist were exceptional. They were always attentive to my questions, providing detailed answers and explanations. They also encouraged me to actively participate in my recovery journey, by giving me exercises to perform at home and teaching me self-management techniques.
+                        
+                        Furthermore, the clinic environment was clean, well-equipped, and maintained high standards of hygiene, which was especially important during these times of the COVID-19 pandemic. The support staff were also very friendly and accommodating, making scheduling appointments hassle-free.
+                        
+                        As a result of the physiotherapy sessions, I experienced significant improvement in my condition. The pain I had been suffering from gradually subsided, and my mobility and strength noticeably improved. I truly believe that this positive outcome was a direct result of the professional care and expertise I received.
+                        
+                        I would highly recommend Physio One to anyone in need of physiotherapy services. Their dedicated team, personalized approach, and commitment to patient well-being make them stand out as a top-notch clinic."</p>
+
+
+                            <div class="comment-box">
+                                <h3>Leave a comment</h3>
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment"></textarea>
+                                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                                </form>
+
+
+                            </div>
+
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Price We Offer</h3>
+                    <div>
+                        <span>PHYSIO ONE-TO-ONE</span>
+                        <span>525$</span>
+                    </div>
+                    <div>
+                        <span>OPEN REHAB</span>
+                        <span>199$</span>
+                    </div>
+                    <div>
+                        <span>ONLINE</span>
+                        <span>140$</span>
+                    </div>
+                    
+                    <div>
+                        <span>FITNESS ONE-TO-ONE</span>
+                        <span>299$</span>
+                    </div>
+                    <div>
+                        <span>OPEN FITNESS</span>
+                        <span>69$</span>
+                    </div>
+                    <div>
+                        <span>SINGLE SESSION</span>
+                        <span>40$</span>
+                    </div>
+        
+                </div>                  
+                </div>
+
+                
+               
+                
+                
+            </div>
+            
+           
+        </section>
+       
+       
+       
+       
+         
+         <!------------------footer---------------->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>At Physio One, we are dedicated to helping you achieve optimal mobility, functionality, and overall well-being.<br>
+                Our team of highly skilled and experienced physiotherapists is here to assess, diagnose,<br> and treat a wide range of musculoskeletal conditions.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                   
+                </div>
+                <p>Made with<i class="fa-regular fa-heart"></i>by Easy Tutorials</p>
+         </section>
+
+        <!----Javascript for toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+    </body>
+</html>

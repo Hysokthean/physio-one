@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Physio One</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8552095a9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo physio.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">MENU</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="price.html">PRICE</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        </div>
+       
+
+
+
+    </section>
+    <br>
+    <br>
+    <br>
+    
+    
+    <form class="booking-form" action="submit.php" method="post">
+        <h1>Book an Appointment</h1>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <div class="form-group">
+          <label for="service">Service</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option value="physiotherapy">Physiotherapy</option>
+            <option value="massage">Massage</option>
+            <option value="acupuncture">Acupuncture</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Enter any additional information or requests"></textarea>
+        </div>
+        <button type="submit" class="submit-button">Book Now</button>
+      </form>
+    
+    <!------------------footer---------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Physio One, we are dedicated to helping you achieve optimal mobility, functionality, and overall
+            well-being.<br>
+            Our team of highly skilled and experienced physiotherapists is here to assess, diagnose,<br> and treat a
+            wide range of musculoskeletal conditions.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with<i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    <!----Javascript for toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

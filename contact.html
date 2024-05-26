@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Physio One</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8552095a9.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo physio.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="price.html">PRICE</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+           
+            <div class="about-col">
+                <h1>Location Us</h1>
+                <br>
+                <h2>Factory Phnom Penh</h2>
+                <br>
+                <br>
+                <br>
+             </div>
+             
+             
+        </section>
+        <!----------Contact Us---------->
+        <br>
+        <br>
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11630.739784868578!2d104.93241832527201!3d11.521789828044533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310950c970930e99%3A0x1a993a98716ff349!2sFACTORY%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1690205311298!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <div class="about-colo">
+            <h2>Toul Tom Poung</h2>
+        </div>
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15636.957035385793!2d104.8986591871582!3d11.534687100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951d009ab8aad%3A0x94ab2d9b1e05bc88!2sPhysio%20ONE%20PP%20-%20TTP!5e0!3m2!1sen!2skh!4v1691649006636!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            <h5>street 480 1H Phnom Penh, 12310</h5>
+                            <p>GWM9+V3 Phnom Penh</p>
+                        </span>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h5>089259733</h5>
+                            <p>Monday to Friday, 6AM to 8PM</p>
+
+                            <p>Saturday and Sunday, 8AM to 2PM</p>
+                        </span>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>info@physioonephnompenh.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="contact-col">
+
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                       
+                    </form>
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+       
+         
+         <!------------------footer---------------->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>At Physio One, we are dedicated to helping you achieve optimal mobility, functionality, and overall well-being.<br>
+                Our team of highly skilled and experienced physiotherapists is here to assess, diagnose,<br> and treat a wide range of musculoskeletal conditions.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                   
+                </div>
+                <p>Made with<i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+         </section>
+
+        <!----Javascript for toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+    </body>
+</html>

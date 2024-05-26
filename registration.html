@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Physio One</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8552095a9.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo physio.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="price.html">PRICE</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="about-col">
+                <h1>REGISTRATION FORM </h1>
+               
+                <hr class="t1">
+             
+             </div>    
+        </section>
+        <!----------Contact Us---------->
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        
+        <style>
+            
+            form {
+              font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              max-width: 600px;
+              margin: 0 auto;
+              padding: 20px;
+              border: 1px solid #ccc;
+              background-color: #f0f0f0;
+            }
+          
+            label {
+              display: block;
+              margin-bottom: 5px;
+            }
+          
+            input, textarea {
+              display: block;
+              width: 100%;
+              margin-bottom: 10px;
+              box-sizing: border-box;
+            }
+          
+            input[type="radio"] {
+              display: inline-block;
+              width: auto;
+              margin-right: 10px;
+            }
+          
+            input[type="submit"] {
+              background-color: #0078d4;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              cursor: pointer;
+            }
+          
+            p {
+              margin-top: 20px;
+              margin-bottom: 10px;
+            }
+          </style>
+          
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="program">Program:</label>
+            <input type="text" id="program" name="program" required><br>
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" name="start-date" required><br>
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" id="phone-number" name="phone-number" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="dob">D.O.B:</label>
+            <input type="date" id="dob" name="dob" required><br>
+            <div class="text">
+                <p>DO YOU INTEND TO CLAIM WITH YOUR INSURANCE?</p>
+            </div>
+            <input type="radio" id="yes" name="insurance-claim" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="insurance-claim" value="no">
+            <label for="no">No</label><br>
+             <div class="h">
+                <h2>For staff to complete<h2>
+            </div>
+            <label for="additional-notes">Additional Notes:</label>
+            <textarea id="additional-notes" name="additional-notes"></textarea><br>
+            <div class="lia">
+                <p>Liability Waiver</p>
+             </div>
+            <dvi class="text1">
+                  <p>I, the undersigned, being aware of my own health and physical condition, and having knowledge that my participation in any exercise program may be injurious to my health, am voluntarily participating in a physical activity.
+                  Having such knowledge, I hereby acknowledge this release, any representatives, agents, and successors from liability for accidental injury or illness which I may incur as a result of participating in the said physical activity.
+                   I hereby assume all risks connected therewith and consent to participate in said program.I agree to disclose any physical limitations, disabilities, ailments, or impairments which may affect my ability to participate in said fitness program.</p>
+          </dvi>
+          <div class="media">
+              <p>Media Release</p>
+          </div>
+          <div class="text2">
+              <p>I hereby give consent to Physio ONE PP to photograph, videotape, or otherwise digitally record and use images and/or sound recordings of myself or my child or children (if applicable) to use in any public media, including radio,
+                   television, internet, social media, print or in any of the organization's or its partners' publications, productions, or posts. I understand that the intended use of such images and information is solely for the purpose of advertising,
+                    marketing, fundraising and/or the promotional and public awareness purposes for the organization. I hereby waive any rights or interest in the images or recordings, as contemplated in this release.</p>
+          </div>
+          <label for="signature">Signature:</label>
+          <input type="text" id="signature" name="signature"><br>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date"><br>
+          <input type="submit" value="Submit">
+          </form>
+          
+              </body>
+          </html>
+
+       
+         <!------------------footer---------------->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>At Physio One, we are dedicated to helping you achieve optimal mobility, functionality, and overall well-being.<br>
+                Our team of highly skilled and experienced physiotherapists is here to assess, diagnose,<br> and treat a wide range of musculoskeletal conditions.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                   
+                </div>
+                <p>Made with<i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+         </section>
+
+        <!----Javascript for toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+    </body>
+</html>

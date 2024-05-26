@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Physio One</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8552095a9.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo physio.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">MENU</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="price.html">PRICE</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="about-col">
+                <h1>Our Menu</h1>
+             </div>
+        </section>
+        <!---------- Course ---------->
+        <section class="course">
+            <h1 class="titles">WHAT WE OFFER</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>REHABILITATION</h2>
+            <div class="row">
+                <div class="course-col">
+                    <h4>PHYSIO ONE-TO-ONE</h4>
+                    <p>A therapist led, one to one program of hands on treatment and exercise rehabilitation, customized to your specific issue.</p>
+                </div>
+                <div class="course-col">
+                    <h4>OPEN REHAB</h4>
+                    <p>An individualized program of treatment and exercise rehabilitation days in a flexible group setting.</p>
+                </div>
+                <div class="course-col">
+                    <h4>ONLINE</h4>
+                    <p>A coach prescribed, individualized exercise rehabilitation or fitness program.</p>
+                </div>
+            </div>
+        </section>
+        <section class="courses">
+            <h2>FITNESS</h2>
+            <div class="rows">
+                <div class="courses-cols">
+                    <h4>FITNESS ONE-TO-ONE</h4>
+                    <p>A coach led, one to one program, customized to your fitness goals.</p>
+                </div>
+                <div class="courses-cols">
+                    <h4>OPEN FITNESS</h4>
+                    <p>A coach prescribed fitness program available in a group setting.</p>
+                </div>
+                <div class="courses-cols">
+                    <h4>SINGLE LESSION</h4>
+                    <p>A single session of physiotherapy treatment and exercise
+                        rehabilitation - also available in a 10 pack with 1 free session at $360.</p>
+                </div>
+
+            </div>
+        </section>
+        <!--------------facilities----------------->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/treamentroom.jpg">
+                    <h3>Treatment room</h3>
+                    <p>Lorem ipsum sit amet, consectetur adipiscing elit.
+                        Pellentesque aliquet turpis nulla.
+                    </p>
+                </div>
+                <div class="facilities-col">
+                        <img src="images/tool for exercise.jpg">
+                        <h3>Exercise equipment</h3>
+                        <p>Lorem ipsum sit amet, consectetur adipiscing elit.
+                            Pellentesque aliquet turpis nulla.
+                        </p>
+                    </div>
+                    <div class="facilities-col">
+                            <img src="images/grass.jpg">
+                            <h3>Artificial turf</h3>
+                            <p>Lorem ipsum sit amet, consectetur adipiscing elit.
+                                Pellentesque aliquet turpis nulla.
+                            </p>
+                        </div>
+            </div>
+
+        </section>
+        
+       
+         
+         <!------------------footer---------------->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>At Physio One, we are dedicated to helping you achieve optimal mobility, functionality, and overall well-being.<br>
+                Our team of highly skilled and experienced physiotherapists is here to assess, diagnose,<br> and treat a wide range of musculoskeletal conditions.</p>.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                   
+                </div>
+                <p>Made with<i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+         </section>
+
+        <!----Javascript for toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+    </body>
+</html>

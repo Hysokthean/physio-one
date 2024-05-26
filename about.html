@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Physio One</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8552095a9.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo physio.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">MENU</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="price.html">PRICE</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="about-col">
+               <h1>About Us</h1>
+            </div>
+        </section>
+        <!---------- about us content---------->
+        <section class="about-us">
+
+          <div class="row">
+            <div class="about-col">
+                <h2>We are the Physio One Of Phnom Penh</h2>
+                <p>1. Personalized Treatment Plans: We understand that every individual is unique, which is why we create tailored treatment plans to address your specific needs. Our physiotherapists will conduct a thorough assessment to identify the root cause of your pain or limitation and develop a plan that maximizes your recovery.
+
+                   <br> 2. Comprehensive Rehabilitation: Whether you're recovering from a sports injury, surgery, or chronic pain, we offer a comprehensive range of rehabilitation services. From manual therapies, therapeutic exercises, to cutting-edge techniques, we provide the most advanced and evidence-based treatments to accelerate your recovery.
+                    
+                    <br>3. Skilled and Experienced Therapists: Our team of physiotherapists has extensive experience in treating a variety of conditions, backed by advanced training and certifications. We continuously stay up-to-date with the latest research and techniques to provide you with the highest standard of care.
+                    
+                    <br>4. State-of-the-Art Facilities: You deserve the best environment for your healing journey. Our clinic is equipped with state-of-the-art equipment and modern facilities to ensure your comfort and convenience throughout your treatment sessions.
+                    
+                    <br>5. Holistic Approach: We believe in a holistic approach to physiotherapy, considering not only the physical aspect but also your mental and emotional well-being. Our therapists will provide education and valuable advice to help you prevent future injuries and maintain a healthy lifestyle.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about us1.png">
+            </div>
+        </div>
+        </section>
+         <!------------------footer---------------->
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>At Physio One, we are dedicated to helping you achieve optimal mobility, functionality, and overall well-being.<br>
+                Our team of highly skilled and experienced physiotherapists is here to assess, diagnose,<br> and treat a wide range of musculoskeletal conditions.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p>Made with<i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+         </section>
+
+        <!----Javascript for toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+    </body>
+</html>
